@@ -36,3 +36,29 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.signup {
+    margin: 50px 100px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(9, 109, 156);
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.signup-container .text {
+    flex: 3;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.signup-container .button {
+    flex: 1;
+    margin-right: 40px;
+}
+
